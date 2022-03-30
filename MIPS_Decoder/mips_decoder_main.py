@@ -87,7 +87,7 @@ def convert(code):
         print('Instruction form: opcode | imm')
         binary = '0b' + opcode + imm
         print('Binary:          ' + binary)
-        hex_string = '{0.08x}'i.format(int(binary, base=2))
+        hex_string = '{0.08x}'.format(int(binary, base=2))
         print('Hex:          0x' + hex_string)
 
     else:
